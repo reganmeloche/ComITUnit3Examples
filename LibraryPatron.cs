@@ -10,10 +10,15 @@ namespace Unit3Examples
             BooksCheckedOut = 0;
         }
 
-        // Properties (Data)
-        public int PatronId {get; set;}
-        public double FinesOwing {get; set;}
-        public int BooksCheckedOut {get;set;}
+        // Public Properties (Data)
+        // public int PatronId {get; set;}
+        // public double FinesOwing {get; set;}
+        // public int BooksCheckedOut {get;set;}
+
+        // Encapsulated Properties (Data)
+        public int PatronId {get;} // Read-only property
+        private double FinesOwing; // Private field
+        public int BooksCheckedOut {get; private set;} // Property: Public get, private set
 
 
         // Methods
