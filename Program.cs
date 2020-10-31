@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Unit3Examples
 {
@@ -6,31 +7,16 @@ namespace Unit3Examples
     {
         static void Main(string[] args)
         {
+            
+
 
         }
 
     }
+
+
+
 }
-
-/*
-    Ideas for applications
-    - Animal Shelter
-    - Library System
-    - Movie Ratings system
-    - Social Media post
-    - Productivity app
-    - Banking system
-    - Airline system
-    - School system/grading system
-    - Learning platform
-    - Fitness tracker
-    - supervise app
-    - Delivery system
-    - Medical system
-*/
-
-
-
 
 
 
